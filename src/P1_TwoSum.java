@@ -32,16 +32,19 @@ public class P1_TwoSum {
     public static void main(String[] args) {
         P1_TwoSum solution = new P1_TwoSum();
 
+        // Test 1
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] result = solution.twoSum(nums, target);
         assert (result[0] == 0);
 
+        // Test 2
         nums = new int[]{3, 2, 4};
         target = 6;
         result = solution.twoSum(nums, target);
         assert (result[0] == 1);
 
+        // Test 3
         nums = new int[]{3, 3};
         target = 6;
         result = solution.twoSum(nums, target);
